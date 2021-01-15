@@ -1,0 +1,64 @@
+
+
+
+
+
+#### 						DataType: Datatype specifies the size and type of values that can be stored inside a variable / container.
+
+There are 2 types of data types in java:
+	1. Primitive datatypes
+	2. Non primitive datatypes
+	
+	
+#1.Primitive Datatypes: Primitive datatypes are the pre defined datatypes in java. there are 8 types of primitive datatypes-
+
+1.integer 
+2.byte
+3.short
+4.long
+5.double 
+6.float
+7.character
+8.boolean
+
+primitive datatypes can be defined into 2 types-
+
+Numeric (int,byte,short, long, doulbe,float)
+Non Numeric( char, boolean)
+
+#2.Non premitive Dataypes: Non premitive datatypes are not defined by the programming language. it is created by the programmer(Except for String)
+Non primitive Datatypes are- String , Array, Classes, Interface etc.
+
+
+
+
+####						 Variable: Variables means container that contains different type of data
+
+the syntax is :
+
+VariableType  VariableName  =  Value
+
+Variables are of 2 types-
+
+1. Global/ instance variable - are the ones that is inside of a class but outside of a method
+2. Local variable - are the ones that are inside of a method.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
