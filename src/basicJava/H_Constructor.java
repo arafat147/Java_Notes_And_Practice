@@ -9,7 +9,7 @@ public class H_Constructor {
 	
 	int age;
 	double height;
-	private char U0041;
+
 	
 	
 	public H_Constructor(String name) {
@@ -47,14 +47,15 @@ public class H_Constructor {
 	
 	public static void main(String[] args) {
 	
-		H_Constructor obj1 = new H_Constructor("Alexa");
-		
-		H_Constructor obj2 = new H_Constructor("Queens, NY", "11377");
-		
-		H_Constructor obj3 = new H_Constructor(25, 6.5);
-		
-		H_Constructor.doAddition();
-		
+//		H_Constructor obj1 = new H_Constructor("Alexa");
+//
+//		H_Constructor obj2 = new H_Constructor("Queens, NY", "11377");
+//
+//		H_Constructor obj3 = new H_Constructor(25, 6.5);
+
+		System.out.println(H_Constructor.doAddition());;
+
+
 	}
 
 }

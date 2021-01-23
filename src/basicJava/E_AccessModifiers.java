@@ -15,11 +15,16 @@ public class E_AccessModifiers {
     // Protected
     // Default
 		
-    // Public:    We can call or use within the class where it is located and from any other class which might be outside of the package inside same project.
+    // Public:    We can call or use within the class where it is located and from any other class which might be outside
+	// 			  of the package inside same project.
 	// Private:   Only we can call or use within the class where it is located.
     // Protected: Only accessible from all the class of that particular package.
-	// Default:   If a class has no modifier (the default, also known as package-private), it is visible only within its own package.
-	
+	// Default:   If a class has no modifier (the default, also known as package-private), it is visible only within
+	// 			  its own package.
+
+	// another modifier is strictfp:
+	// strictfp is a modifier in the Java programming language that restricts floating-point calculations to
+	// ensure portability. The strictfp command was introduced into Java with the Java virtual machine (JVM) version 1.2
 	protected static String practice = "this is default variable";
 	
 	
