@@ -2,6 +2,7 @@ package test;
 
 import basicJava.D_StaticAndNonStaticVariableAndMethod;
 import basicJava.E_AccessModifiers;
+import basicJava2.UseEnum;
 
 public class Test {
 	
@@ -32,10 +33,9 @@ public class Test {
 		
 		// but since in the class D_StaticVariableAndMethod , char shirtSize is pulbic, it is accissible from other packages. like here:
 		System.out.println(sv.shirtSize);// this variable came from the basic java package class D_StaticVariableAndMethod
-		
-		
-		
-		
+
+
+
 		
 		
 		

@@ -1,6 +1,8 @@
 package basicJava2;
 
+
 public class UseEnum {
+
 
     // if we want to represent a group of named constants- then we should use ENUM.
     // it was introduced in java 1.5 version
@@ -28,8 +30,10 @@ public class UseEnum {
     public static void main(String[] args) {
         System.out.println(DAYS.MONDAY);
         System.out.println(COLOR.red);
+        System.out.println(Level2.Inner);
     }
 }
+
 enum COLOR{
     red,yellow,green,blue;
 }

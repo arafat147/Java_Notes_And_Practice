@@ -21,7 +21,7 @@ public class N_Methods {
     // void : parameterized:
     public static void doMultiply(int a, int b){
         int total = a*b;
-        System.out.println(total);
+        //System.out.println(total);
     }
     //void: non-parameterized:
     public static void doDivision(){
@@ -32,14 +32,15 @@ public class N_Methods {
     }
     public static void main(String[] args) {
 
-        N_Methods.doAddition(15,25);//to see what this method is returning, we need to print it.
-        System.out.println(N_Methods.doAddition(15,25));//now we can see in the console what it's returning. in this case it will return total;
+//        N_Methods.doAddition(15,25);//to see what this method is returning, we need to print it.
+//        System.out.println(N_Methods.doAddition(15,25));//now we can see in the console what it's returning. in this case it will return total;
+//
+//        System.out.println(doSummation());//we can only print return type methods. void methods cant be put inside the sout because it does not return anything.
+//
+//        N_Methods.doMultiply(10,5);
+//        N_Methods.doDivision();
 
-        System.out.println(doSummation());//we can only print return type methods. void methods cant be put inside the sout because it does not return anything.
-
-        N_Methods.doMultiply(10,5);
-        N_Methods.doDivision();
-
+        System.out.println(N_Methods.doSummation());
 
     }
 }
