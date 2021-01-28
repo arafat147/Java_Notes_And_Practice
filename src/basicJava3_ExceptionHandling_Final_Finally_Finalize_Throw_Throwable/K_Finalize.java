@@ -6,7 +6,9 @@ public class K_Finalize {
     // finalize is a method inside Object class in java. this terminology is applicable for garbage collector.
     // it cleans up the un used objects of a class.
 
-
+    public void finalize(){
+        System.out.println("Finalize block");
+    }
 
     public static void main(String[] args) {
 

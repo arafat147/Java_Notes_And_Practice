@@ -4,7 +4,10 @@ import static javax.security.auth.callback.ConfirmationCallback.NO;
 
 public class G_Throw_Keyword {
 
+
+
     public static void main(String[] args) {
+
         // throw keyword is used to provide explicit exceptions in a program.
         // throw keyword should be inside of a method and we can give it any name while declaring it.
         // it's a good practice to use throw keyword inside the try-catch block otherwise the program will terminate -
@@ -30,6 +33,7 @@ public class G_Throw_Keyword {
                 throw new Exception("Arafat's exception");
             } catch (Exception e) {
                 System.out.println("flag flying answer is not in full word ");
+               // e.printStackTrace();
             }
         }
 
