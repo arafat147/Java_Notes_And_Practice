@@ -6,7 +6,7 @@ public class A_Class {
 
 	//Class is a blueprint to create objects.
 
-	//A class can only have public , abstract or finally access modifier.
+	//A class can only have public , abstract or final access modifier.
 	//It can not be private or Protected because -
 
 

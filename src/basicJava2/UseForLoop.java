@@ -67,7 +67,7 @@ public class UseForLoop {
             for (int i = number; i >= 1; i--) {
 
                 for (int j = number; j >= i; j--) {
-                    System.out.print("*" + " ");
+                    System.out.print("i" + " ");
                 }
                 System.out.println();
             }

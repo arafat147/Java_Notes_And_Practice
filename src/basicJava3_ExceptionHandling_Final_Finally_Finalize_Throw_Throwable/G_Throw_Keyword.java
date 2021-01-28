@@ -18,10 +18,12 @@ public class G_Throw_Keyword {
         System.out.println("Hello");
 
 
+
         try{
             throw new Exception("Arafat's Exception");
         }catch(Exception e){
             e.printStackTrace();
+            //System.out.println("aslkdjhglkjasd");
         }
 
         System.out.println("Hi");
@@ -32,8 +34,8 @@ public class G_Throw_Keyword {
             try {
                 throw new Exception("Arafat's exception");
             } catch (Exception e) {
-                System.out.println("flag flying answer is not in full word ");
-               // e.printStackTrace();
+                //System.out.println("flag flying answer is not in full word ");
+                e.printStackTrace();
             }
         }
 

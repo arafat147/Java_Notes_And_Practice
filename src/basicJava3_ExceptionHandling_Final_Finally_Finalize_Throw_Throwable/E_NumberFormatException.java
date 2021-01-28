@@ -6,17 +6,22 @@ public class E_NumberFormatException {
 
         // number formatting exception will arise when we will try to convert a string value with characters-
         // String stname = "ABC"; to integer value.
-        String ssn = "123456";
-        int newSsn = Integer.parseInt(ssn);
-        System.out.println(newSsn);
+
 
 
         try{
-            int num=Integer.parseInt ("XYZ") ;
+            int num = Integer.parseInt ("XYZ") ;
             System.out.println(num);
-        }catch(NumberFormatException e){
-            System.out.println("Number format exception occurred");
+        }catch(NumberFormatException e) {
+            //System.out.println("Number format exception occurred");
+            e.printStackTrace();
+        } finally {
+            String ssn = "123456";
+            int newSsn = Integer.parseInt(ssn);
+            System.out.println("the new integer value is " + newSsn);
         }
+
+
     }
 
     }

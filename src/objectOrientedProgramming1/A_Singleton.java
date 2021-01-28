@@ -18,7 +18,11 @@ public class A_Singleton {
     private A_Singleton(){
 
     }
+
+
+
     private static A_Singleton obj = new A_Singleton();
+
     public static A_Singleton getInstance(){
         return obj;
     }
@@ -28,6 +32,10 @@ public class A_Singleton {
         int b= 20;
         int total = a+b;
         System.out.println(total);
+    }
+
+    public static void main(String[] args) {
+        //A_Singleton obj2 = new A_Singleton("James williams");
     }
 
 }
