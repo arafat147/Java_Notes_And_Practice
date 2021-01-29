@@ -1,6 +1,6 @@
 package objectOrientedProgrammimg3.inheritance;
 
-public class Bmw extends VehicleSpecification { // let's say this is the child class and extending the parent class.
+public class Bmw extends VehicleSpecification { // let's say this is the child class and extending the parent class VehicleSpecification.
 
         // Inheritance is a mechanism in which one class acquires the property of another class.
         // It is useful for code re usability: reuse attributes and methods of an existing class when you create a new class.
