@@ -1,6 +1,6 @@
-package objectOrientedProgrammimg3;
+package objectOrientedProgramming2.inhertance2_Interface_Abstraction;
 
-public class B_Abstraction {
+public abstract class B_Abstraction {
 
     //Abstraction : is the process of hiding certain details and showing only essential information to the user.
     //Abstraction can be achieved with either abstract classes or interfaces. in OOP, abstraction
@@ -13,5 +13,21 @@ public class B_Abstraction {
     //If you inherit an abstract class, you have to provide implementations to all the abstract methods in it.
 
     //Abstract method: can only be used in an abstract class, and it does not have a body.
+
+    public abstract void car();
+
+    public abstract void electricCar();
+
+    public void carEngine(){
+        System.out.println("V6 engine");
+    }
+
+    // variables: there is no restrictions in abstract class variables.
+    String name = "alex";
+    int age;
+
+
+
+
 
 }

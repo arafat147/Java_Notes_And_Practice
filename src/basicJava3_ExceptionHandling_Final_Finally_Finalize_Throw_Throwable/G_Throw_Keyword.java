@@ -18,15 +18,16 @@ public class G_Throw_Keyword {
         System.out.println("Hello");
 
 
+//
+//        try{
+//
+//            throw new Exception("Arafat's Exception");
+//        }catch(Exception e){
+//            e.printStackTrace();
+//            //System.out.println("aslkdjhglkjasd");
+//        }
 
-        try{
-            throw new Exception("Arafat's Exception");
-        }catch(Exception e){
-            e.printStackTrace();
-            //System.out.println("aslkdjhglkjasd");
-        }
 
-        System.out.println("Hi");
 
         //example 2:
         String flag_flying = "N";
@@ -38,6 +39,8 @@ public class G_Throw_Keyword {
                 e.printStackTrace();
             }
         }
+        System.out.println("Hi");
+
 
     }
 

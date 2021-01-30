@@ -26,15 +26,32 @@ public class A_ExceptionHandling {
 //        doMoreStuff();
 //        System.out.println("but i am running");
 
-        try{
-            System.out.println("Please run this code");
-            System.out.println(8/0);
-        }catch(Exception a){
-            System.out.println("this is an arithmetic Exception");
-        } finally{
-            System.out.println("Please run this code");
-            System.out.println(10/0);
-        }
+//        try{
+//            System.out.println("Please run this code");
+//
+//        }catch(Exception a){
+//            System.out.println("this is an arithmetic Exception");
+//        } finally{
+//            System.out.println("Please run this code");
+//            System.out.println(10/0);
+//        }
+
+    try {
+        System.out.println(8 / 0);
+    }catch(Exception e){
+        e.printStackTrace();
+    }
+
+
+        System.out.println("Hi");
+
+
+
+
+
+
+
+
 
     }
 

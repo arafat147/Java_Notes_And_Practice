@@ -1,4 +1,4 @@
-package objectOrientedProgrammimg3.inheritance;
+package objectOrientedProgramming2.inheritance;
 
 public class Bmw extends VehicleSpecification { // let's say this is the child class and extending the parent class VehicleSpecification.
 

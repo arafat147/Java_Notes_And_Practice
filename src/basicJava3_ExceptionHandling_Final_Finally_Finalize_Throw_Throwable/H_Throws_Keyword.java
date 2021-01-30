@@ -17,14 +17,14 @@ public class H_Throws_Keyword {
     }
 
     public static void main(String[] args) {
-        try {
-
-            H_Throws_Keyword.division();
-            throw new ArithmeticException("Arafat's Exception");
-
-        } catch (Exception e) {
-            System.out.println("This is arithmetic exception");
-        }
+//        try {
+//
+//            H_Throws_Keyword.division();
+//            throw new ArithmeticException("Arafat's Exception");
+//
+//        } catch (Exception e) {
+//            System.out.println("This is arithmetic exception");
+//        }
 
         //       H_Throws_Keyword.division();
 

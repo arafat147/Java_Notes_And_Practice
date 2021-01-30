@@ -1,4 +1,4 @@
-package objectOrientedProgrammimg3.inheritance;
+package objectOrientedProgramming2.inheritance;
 
 public class TransportAuthority { // let's say this is a grand parent class.
 

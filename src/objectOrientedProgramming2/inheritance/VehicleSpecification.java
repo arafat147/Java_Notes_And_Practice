@@ -1,4 +1,4 @@
-package objectOrientedProgrammimg3.inheritance;
+package objectOrientedProgramming2.inheritance;
 
 public class VehicleSpecification extends TransportAuthority{ //let's say this is the parent class. and it's extending grand parent class TransportAuthority.
 

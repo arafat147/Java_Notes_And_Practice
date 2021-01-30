@@ -1,4 +1,4 @@
-package objectOrientedProgrammimg3.inheritance;
+package objectOrientedProgramming2.inheritance;
 
 public class Mercedes extends VehicleSpecification { //lets say this is another child class and its also extending the same parent VehicleSpecification class.
     // Example of Hierarchical : both mercedes and bmw class is extending their same parent class VehicleSpecification.

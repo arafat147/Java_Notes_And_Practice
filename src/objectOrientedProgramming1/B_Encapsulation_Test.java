@@ -11,7 +11,8 @@ public class B_Encapsulation_Test {
         obj.setScreenSize(6);
         System.out.println(obj.getScreenSize());
 
-
+        obj.setCarName("Tesla");
+        System.out.println(obj.getCarName());
 
     }
 }
