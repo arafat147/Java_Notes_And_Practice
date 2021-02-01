@@ -37,7 +37,7 @@ public class Test_Inheritance {
 
         // **Type Casting**> Top casting
         // a parent class can refer to child class object.
-        // only over ridden methods of child class and parent class methods will be accessible. if parent class extends another class,
+        // only  parent class methods and over ridden methods in child class will be accessible. if parent class extends another class,
         // like here, VehicleSpecification extends TransportAuthority class, then in that case, we can call the property inherited by
         // VehicleSpecification class in here.
         VehicleSpecification vs = new Bmw();
