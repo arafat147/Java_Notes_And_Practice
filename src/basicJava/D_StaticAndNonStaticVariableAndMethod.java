@@ -2,7 +2,7 @@ package basicJava;
 
 public class D_StaticAndNonStaticVariableAndMethod {
 	
-	//staic variables:
+	//static variables:
 	
 	public static int age = 25; 	
 	

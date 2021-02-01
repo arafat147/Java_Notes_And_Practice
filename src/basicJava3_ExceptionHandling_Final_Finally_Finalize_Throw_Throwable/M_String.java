@@ -12,7 +12,7 @@ public class M_String {
         System.out.println(foodName.length());// to get the length of a string
         System.out.println(foodName.equals("chicken biriyani"));// to compare a String value with another.
         System.out.println(foodName.equalsIgnoreCase("chicken biriyani"));// to ignore case of a string and compare with another string.
-        System.out.println(foodName.charAt(8));// to get what character is in number 8. the count starts from 0.
+        System.out.println(foodName.charAt(7));// to get what character is in number 8. the count starts from 0.
         System.out.println(foodName.substring(5)); // is the starting point of creating a new string. it counts from 1 as C and cancels up to k. then prints en biriyani in the cnsole.
         System.out.println(foodName.substring(4,10));
 

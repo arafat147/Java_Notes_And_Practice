@@ -1,7 +1,8 @@
 package objectOrientedProgramming1;
 
 public class B_Encapsulation {
-    // Encapsulation :Encapsulation in Java is a mechanism of wrapping the data. so that it can not be accessed directly from other class.
+    // Encapsulation :Encapsulation in Java is a mechanism of wrapping the data -
+    // so that it can not be accessed directly from other class.
     // advantage: A class can have total control over what is stored in its fields.
 
     //variable:
@@ -15,6 +16,7 @@ public class B_Encapsulation {
     public void setMobileBrand(String mobileBrand){
         this.mobileBrand = mobileBrand;
     }
+
 
     //variable:
     private int screenSize;

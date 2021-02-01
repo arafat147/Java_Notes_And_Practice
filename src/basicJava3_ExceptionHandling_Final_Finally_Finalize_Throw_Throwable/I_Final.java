@@ -7,7 +7,9 @@ public class I_Final {// extends L_FinalClassTest {
     //if a method is final : we ca not override that method in child class
     // if variable is final : we can not re assign that variable. meaning it's constant.
 
-
+    public final void doStuff(){
+        System.out.println("asdfhasdk");
+    }
 
 
     // we have the same method in its parent class the one it extends. so to stop inheritance of the parent class,
@@ -18,7 +20,7 @@ public class I_Final {// extends L_FinalClassTest {
     public static void main(String[] args) {
 
       //variable final.
-      final  int a = 10;
+      final int a = 10;
       //  a = 20;
       //  a= 30;
         System.out.println(a);

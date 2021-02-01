@@ -30,6 +30,8 @@ public class N_Methods {
         int total = a/b;
         System.out.println(total);
     }
+
+
     public static void main(String[] args) {
 
 //        N_Methods.doAddition(15,25);//to see what this method is returning, we need to print it.

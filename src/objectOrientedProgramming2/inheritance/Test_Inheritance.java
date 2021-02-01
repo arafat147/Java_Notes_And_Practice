@@ -31,6 +31,10 @@ public class Test_Inheritance {
         m1.carBlueprint(); // from TransportAuthority class.
 
         System.out.println("###################");
+        // To understand static binding and dynamic binding, follow this link :
+        // https://www.geeksforgeeks.org/static-vs-dynamic-binding-in-java/
+
+
         // **Type Casting**> Top casting
         // a parent class can refer to child class object.
         // only over ridden methods of child class and parent class methods will be accessible. if parent class extends another class,
@@ -45,6 +49,7 @@ public class Test_Inheritance {
         // when a child class refers to the parent class object , it's called down casting.
         // although the below code is perfectly casted but it will give us exception. bcz child class can not refer to parent class object.
         Bmw b2 =(Bmw) new VehicleSpecification();
+        b2.cruiseControl();//this will compile but in runtime it will give exception.
 
 
     }

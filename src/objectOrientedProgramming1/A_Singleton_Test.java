@@ -7,10 +7,11 @@ public class A_Singleton_Test {
         sc.stName = "James";
         A_Singleton.doStuff();
         A_Singleton.age = 30;
-
+        A_Singleton.doMoreStuff();
         //A_Singleton sc = A_Singleton.getInstance();
         sc.stName="Williams";
         A_Singleton.age = 50;
+
 
 
 

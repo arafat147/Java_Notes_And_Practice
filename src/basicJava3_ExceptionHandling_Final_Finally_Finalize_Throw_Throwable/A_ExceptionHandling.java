@@ -22,6 +22,7 @@ public class A_ExceptionHandling {
         System.out.println("Hi all");
     }
     public static void main(String[] args) {
+
 //        doStuff();
 //        doMoreStuff();
 //        System.out.println("but i am running");
@@ -36,15 +37,15 @@ public class A_ExceptionHandling {
 //            System.out.println(10/0);
 //        }
 
-    try {
-        System.out.println(8 / 0);
-    }catch(Exception e){
-        e.printStackTrace();
-    }
-
-
-        System.out.println("Hi");
-
+//    try {
+//        System.out.println(8 / 0);
+//    }catch(Exception e){
+//        e.printStackTrace();
+//    }
+//
+//
+//        System.out.println("Hi");
+//
 
 
 

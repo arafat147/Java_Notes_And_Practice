@@ -34,6 +34,10 @@ public class A_Singleton {
         System.out.println(total);
     }
 
+    public static void doMoreStuff(){
+        System.out.println("laskjdhflkjasd");
+    }
+
     public static void main(String[] args) {
         //A_Singleton obj2 = new A_Singleton("James williams");
     }

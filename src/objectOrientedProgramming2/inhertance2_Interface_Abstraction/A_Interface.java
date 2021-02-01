@@ -22,7 +22,7 @@ public interface A_Interface { // an interface can Extend multiple Interfaces,bu
     // in interface, variables must be initialized.
      String className = "Interface ";
 
-    // int age;
+   //int age;
 
 
 }
