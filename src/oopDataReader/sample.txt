@@ -1,0 +1,44 @@
+we are learning object oriented programming!
+
+
+Here is how to read a txt file from the console:
+public static void main(String[] args) {
+
+        FileReader fr = null;
+        BufferedReader br = null;
+
+        String fileName = "C:\\Users\\arafa\\eclipse-workspace\\Java_Notes_And_Practice\\src\\oopDataReader\\sample.txt";
+
+        try{
+            fr = new FileReader(fileName);
+            br = new BufferedReader(fr);
+
+            String data;
+
+            while((data= br.readLine()) != null){
+                System.out.println(data);
+            }
+
+
+
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        finally {
+            try{
+                fr.close();
+                br.close();
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
+
+    }
+
+
+
+
+
+
+
+
