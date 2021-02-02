@@ -4,7 +4,7 @@ public class I_Final {// extends L_FinalClassTest {
     //final is a modifier applicable for class,methods and variables.
 
     //if a class is final : we can not extend that class also we can not create child class for that class
-    //if a method is final : we ca not override that method in child class
+    //if a method is final : we ca not override that method in a child class
     // if variable is final : we can not re assign that variable. meaning it's constant.
 
     public final void doStuff(){

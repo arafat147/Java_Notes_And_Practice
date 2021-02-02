@@ -16,6 +16,23 @@ public class DoWhileLoop {
             System.out.println("number of player is " + number);
             number--;
         }while(number>=1);
+
+
+
+
+        int i = 1;
+        do {
+            System.out.println("player number is " + i);
+            i++;
+        }while(i<=5);
+
+
+
+
+
+
+
+
     }
 
 

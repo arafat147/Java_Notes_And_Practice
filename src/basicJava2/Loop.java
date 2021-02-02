@@ -21,6 +21,10 @@ public class Loop {
     //---
     // for each loop is also there but not in the main loop types
 
+    //When to use which loop? and their use cases:
+
+    // Generally a for loop is used to iterate over an array. Use a for loop when you know the loop should execute n times.
+    // A while loop is used for reading a file into a variable. Use a while loop when asking for user input.
 
 
 

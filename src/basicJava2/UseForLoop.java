@@ -23,6 +23,7 @@ public class UseForLoop {
     //1.initialization-->2.condition-->3.loop body-->4.increment/decrement-->from there it goes to condition again and follow 1,2,3,4 points in this line
 
     public static void basicFroLoop(){
+
         for(int i=0; i<5;i++){
             System.out.println(" hello " + i);
         }
@@ -53,7 +54,7 @@ public class UseForLoop {
 
         for (int i= rowNumber; i>= 1; i--){
             for (int j =1; j<=i; j++){
-                System.out.print("*"+" ");
+                System.out.print(j+" ");
             }
             System.out.println();
         }
@@ -83,8 +84,8 @@ public class UseForLoop {
 
 //        UseForLoop.basicFroLoop();
 //        UseForLoop.findEvenOrOdd();
-//        UseForLoop.makePattern();
-        UseForLoop.makePattern2();
+        UseForLoop.makePattern();
+       // UseForLoop.makePattern2();
 
 
 

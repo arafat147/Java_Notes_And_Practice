@@ -14,7 +14,8 @@ public class B_Encapsulation_Test {
         obj.setCarName("Tesla");
         System.out.println(obj.getCarName());
 
-
+        obj.setMobileBrand("Samsung");
+        System.out.println(obj.getMobileBrand());
 
     }
 }

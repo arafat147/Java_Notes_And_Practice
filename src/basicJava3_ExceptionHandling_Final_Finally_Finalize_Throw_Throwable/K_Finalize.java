@@ -3,10 +3,14 @@ package basicJava3_ExceptionHandling_Final_Finally_Finalize_Throw_Throwable;
 import basicJava.K_ConditionalOperator;
 
 public class K_Finalize {
+
+
     // finalize is a method inside Object class in java. this terminology is applicable for garbage collector.
     // it cleans up the un used objects of a class.
     // finalize method is invoked each time before the object is garbage collected.
     // this method is basically used to close any database connections.
+
+
     public void doStuff(){
         System.out.println("This is finalize class method");
     }

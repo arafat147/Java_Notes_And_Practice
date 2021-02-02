@@ -1,0 +1,36 @@
+
+# Loop
+1.for loop, nested for loop
+2.while loop
+3. do while loop
+
+# switch case
+
+
+#Exception Handling - Throw and Throws.
+
+
+# final, finally, finalize
+
+
+# OOP.
+
+1. Encapsulation
+2. Abstraction
+3. Inheritance
+4. polymorphism
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

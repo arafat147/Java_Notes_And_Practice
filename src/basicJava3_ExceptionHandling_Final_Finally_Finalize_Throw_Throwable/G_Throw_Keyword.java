@@ -30,8 +30,8 @@ public class G_Throw_Keyword {
 
 
         //example 2:
-        String flag_flying = "N";
-        if (flag_flying.equals("N")){
+        String answer = "N";
+        if (answer.equals("N")){
             try {
                 throw new Exception("Arafat's exception");
             } catch (Exception e) {
@@ -40,6 +40,10 @@ public class G_Throw_Keyword {
             }
         }
         System.out.println("Hi");
+
+
+
+
 
 
     }
