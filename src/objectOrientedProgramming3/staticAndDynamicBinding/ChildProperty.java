@@ -51,7 +51,7 @@ public class ChildProperty extends ParentProperty {
         System.out.println("Child has his/her own business");
     }
     //this is called method overLoading:
-    public void childBusiness(String businessName, String businessAddress){
+    public void childBusiness(String businessName, String businessAddress) {
         System.out.println("child's business name is " + businessName + " and address is " + businessAddress);
     }
 

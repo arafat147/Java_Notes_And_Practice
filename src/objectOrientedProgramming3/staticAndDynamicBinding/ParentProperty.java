@@ -4,7 +4,7 @@ public class ParentProperty {
 
     //if a parent class methods are static,final or private then child class can not override them.
 
-    public static void fatherCar(){
+     static void fatherCar(){
         System.out.println("father has a BMW car");
     }
 
