@@ -28,6 +28,11 @@ public class TestStaticAndDynamicBinding {
         ParentProperty pt = new ParentProperty();
         pt.fatherHouse();
 
+
+        ParentProperty pppt = new ChildProperty();
+        pppt.fatherHouse();
+
+
     }
 
 }

@@ -54,5 +54,8 @@ public class ChildProperty extends ParentProperty {
     public void childBusiness(String businessName, String businessAddress) {
         System.out.println("child's business name is " + businessName + " and address is " + businessAddress);
     }
+    public void doStuff(){
+        System.out.println("djkasghh");
+    }
 
 }

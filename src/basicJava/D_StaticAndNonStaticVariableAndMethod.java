@@ -1,19 +1,34 @@
 package basicJava;
 
 public class D_StaticAndNonStaticVariableAndMethod {
-	
+	// reference: https://www.youtube.com/watch?v=Nw7NyvuwOTM
+
+	//
+
+
+	int x = 10;
+
 	//static variables:
+	static int id = 25;
 	
 	public static int age = 25; 	
 	
 	static String stName = "Alex";
 	
 	public static void car() {
-		
+
+		id = 35; // static global variables are accessible inside static methods
 		String name = "sadjfha";
 		
 		System.out.println("Car has 4 wheels");
-		
+		int i = 0;
+
+	}
+	public void doStuff(){
+
+		System.out.println(id);// static global variables are accessible inside non static methods
+		System.out.println(x);// non static global variables are accessible inside non static methods.
+
 	}
 	
 	
@@ -41,6 +56,7 @@ public class D_StaticAndNonStaticVariableAndMethod {
 		System.out.println("printed Shirt size is " + snsv.shirtSize);
 //		D_StaticAndNonStaticVariableAndMethod.age = 30;// re assigning values of static global variable:
 //		System.out.println("Re assigned age is " + D_StaticAndNonStaticVariableAndMethod.age);
+
 	}
 	
 	/**
@@ -55,7 +71,7 @@ public class D_StaticAndNonStaticVariableAndMethod {
 	
 	public static void main(String[] args) {
 		
-		//calling static variable and methods
+		//calling static variable and methods:
 		System.out.println(D_StaticAndNonStaticVariableAndMethod.stName);
 		//System.out.println(D_StaticAndNonStaticVariableAndMethod.age);
 		D_StaticAndNonStaticVariableAndMethod.car();
@@ -64,8 +80,8 @@ public class D_StaticAndNonStaticVariableAndMethod {
 		D_StaticAndNonStaticVariableAndMethod sv = new D_StaticAndNonStaticVariableAndMethod();
 		System.out.println(sv.salary);
 		sv.electricCar();
-		
-		
+
+
 	}
 
 }
