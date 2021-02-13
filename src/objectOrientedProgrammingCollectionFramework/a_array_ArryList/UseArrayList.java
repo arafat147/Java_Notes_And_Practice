@@ -54,9 +54,26 @@ public class UseArrayList {
 
 
         // iterator:
-        Iterator<Integer> x = ar1.iterator();
-        while (x.hasNext()) {//using iterator:
-            System.out.println(x.next());
+        Iterator<Integer> it = ar1.iterator();
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
+
+        //To store Employee class objects into ArrayList: lets create an arrayList object with Employee class reference:
+        ArrayList<Employee> e = new ArrayList<>();
+        // create some employee objects:
+        Employee e1 = new Employee("Alex",25);
+        Employee e2 = new Employee("James",35);
+        Employee e3 = new Employee("Tom",28);
+        //lets add these values inside arrayList object:
+        e.add(e1);
+        e.add(e2);
+        e.add(e3);
+        // to retrieve data:
+        Iterator<Employee> it2 = e.iterator();
+        while(it2.hasNext()){
+            Employee emp = it2.next();
+            System.out.println(emp.name + " ," + emp.age);
         }
 
 

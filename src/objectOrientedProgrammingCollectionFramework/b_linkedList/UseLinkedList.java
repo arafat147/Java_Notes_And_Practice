@@ -1,9 +1,9 @@
 package objectOrientedProgrammingCollectionFramework.b_linkedList;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class UseLinkedList {
-
 
 
     /* LinkedList:
@@ -38,7 +38,7 @@ public class UseLinkedList {
         li.addLast("DEV");
         System.out.println("contents of linked list :" + li);
         //to change any specific index value:
-        li.add(1,"ProductOwner");
+        li.add(1, "ProductOwner");
         System.out.println("contents of linked list :" + li);
         //remove first:
         // li.removeFirst();
@@ -51,9 +51,36 @@ public class UseLinkedList {
         System.out.println("************* printing value using for loop ******************");
 
         //printing values using for loop:
-        for(int i=0; i<li.size();i++){
+        for (int i = 0; i < li.size(); i++) {
             System.out.println(li.get(i));
         }
+        System.out.println("************* printing value using Iterator ******************");
+        //using iterator:
+        Iterator<String> it = li.iterator();
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
+
+        //Adding class objects inside linkedlist:
+        LinkedList<Employee> e = new LinkedList<>();
+        //create object of employee class:
+        Employee e1 = new Employee("Arafat", 27);
+        Employee e2 = new Employee("Tareq", 29);
+        Employee e3 = new Employee("Rasel", 30);
+        // add objects inside linked list:
+        e.add(e1);
+        e.add(e2);
+        e.add(e3);
+        System.out.println("#####################");
+        // fetching values using iterator:
+        Iterator<Employee> it2 = e.iterator();
+        while (it2.hasNext()) {
+
+            Employee emp = it2.next();
+            System.out.println(emp.name + " " + emp.age);
+
+        }
+
 
 
 

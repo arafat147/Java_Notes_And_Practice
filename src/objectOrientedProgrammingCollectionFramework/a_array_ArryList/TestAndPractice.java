@@ -8,6 +8,7 @@ public class TestAndPractice {
 
     public static void main(String[] args) {
 
+
         int [] id = new int[5];
         id[0] = 25;
         id[1] = 35;

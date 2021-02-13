@@ -34,11 +34,9 @@ public class Array {
 
         // find smallest number in an array:
 
-
         int[] numbers = {510, 52, 45, 58, 69, 96, 47, 52, 1, 25, 35};
-
+        //first we need to set an initial value:
         int smallest = numbers[0];
-
 
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] < smallest) {
