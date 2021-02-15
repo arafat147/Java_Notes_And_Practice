@@ -22,7 +22,13 @@ public class UseHashMap {
         hp.remove(4);
         //to get a value using key:
         System.out.println(hp.get(1));
-
+        System.out.println("-----");
+        //to get all the keys:
+        System.out.println(hp.keySet());
+        //to get all the values only:
+        System.out.println(hp.values());
+        System.out.println(hp.containsKey(4));//to check if the given key is available or not:
+        System.out.println(hp.containsValue("James"));//to check if the given value is available or not:
 
         //to get all the values in general:
         System.out.println(hp);

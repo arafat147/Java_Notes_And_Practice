@@ -1,6 +1,5 @@
-package objectOrientedProgrammingCollectionFramework.b_linkedList;
+package objectOrientedProgrammingCollectionFramework.b_a_linkedList;
 
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 

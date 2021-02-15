@@ -1,6 +1,7 @@
 package objectOrientedProgrammingCollectionFramework.a_array_ArryList;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 public class UseArrayList {
@@ -33,12 +34,15 @@ public class UseArrayList {
 
         // generic: means we define specific type of data
         ArrayList<Integer> ar1 = new ArrayList<Integer>();
-        ar1.add(5);
+        ar1.add(50);
         ar1.add(10);
         // ar1.add("Alex"); it will give us error because we defined the arraylist object to hold only integer values.
-        ar1.add(15);
+        ar1.add(158);
         System.out.println(ar1.size());
         System.out.println(ar1.get(1));
+        Collections.sort(ar1);// to sort arraylist elements
+        System.out.println(ar1);
+        System.out.println(ar1.contains(10));//to check if a value is available or not:
 
         for (int i = 0; i < ar1.size(); i++) {// using for loop:
             System.out.println(ar1.get(i));

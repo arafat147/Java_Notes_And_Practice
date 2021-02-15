@@ -1,5 +1,6 @@
-package objectOrientedProgrammingCollectionFramework.b_linkedList;
+package objectOrientedProgrammingCollectionFramework.b_a_linkedList;
 
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -46,8 +47,11 @@ public class UseLinkedList {
         // li.removeLast();
         //remove any specific index:
         li.remove(2);
+        System.out.println(li.contains("BB"));// to check if this value is available or not:
         System.out.println("contents of linked list :" + li);
 
+        Collections.sort(li); // to sort linked list elements
+        System.out.println(li);
         System.out.println("************* printing value using for loop ******************");
 
         //printing values using for loop:
