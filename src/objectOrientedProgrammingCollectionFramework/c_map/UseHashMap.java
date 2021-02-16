@@ -15,7 +15,7 @@ public class UseHashMap {
         HashMap<Integer, String> hp = new HashMap<>();
         //to add values:
         hp.put(1, "Alex");
-        hp.put(2, "tom");
+        hp.put(2, "Tom");
         hp.put(3, "James");
         hp.put(4, "Williams");
         //to remove using key:
@@ -29,7 +29,7 @@ public class UseHashMap {
         System.out.println(hp.values());
         System.out.println(hp.containsKey(4));//to check if the given key is available or not:
         System.out.println(hp.containsValue("James"));//to check if the given value is available or not:
-
+        System.out.println("Get the value of a set using key:" + hp.get(2));
         //to get all the values in general:
         System.out.println(hp);
         System.out.println("##################");
@@ -39,7 +39,7 @@ public class UseHashMap {
 
         System.out.println("##################");
         //to get all the key and values using for each loop:
-        for (Map.Entry m : hp.entrySet()) {
+        for (Map.Entry<Integer,String> m : hp.entrySet()) {
             System.out.println("Key " + m.getKey() + " Value is" + ": " + m.getValue());
         }
 
