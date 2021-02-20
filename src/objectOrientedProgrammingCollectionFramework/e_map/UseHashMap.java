@@ -1,4 +1,4 @@
-package objectOrientedProgrammingCollectionFramework.c_map;
+package objectOrientedProgrammingCollectionFramework.e_map;
 
 import java.util.*;
 

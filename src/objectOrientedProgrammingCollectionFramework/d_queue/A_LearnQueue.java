@@ -1,6 +1,5 @@
-package objectOrientedProgrammingCollectionFramework.e_queue;
+package objectOrientedProgrammingCollectionFramework.d_queue;
 
-import java.util.Collections;
 import java.util.Iterator;
 import java.util.PriorityQueue;
 import java.util.Queue;

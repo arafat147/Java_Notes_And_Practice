@@ -26,7 +26,6 @@ public class Array {
         a[1] = 20;
         a[2] = 20;
 
-
         System.out.println(a[0] + " " + a[1] + " " + a[2]);
         System.out.println(Arrays.toString(a));
 

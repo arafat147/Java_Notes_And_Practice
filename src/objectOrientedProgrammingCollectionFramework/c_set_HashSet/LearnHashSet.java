@@ -1,4 +1,4 @@
-package objectOrientedProgrammingCollectionFramework.d_set_HashSet;
+package objectOrientedProgrammingCollectionFramework.c_set_HashSet;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -49,27 +49,35 @@ public class LearnHashSet {
 
         // To Do Union and Intersection of 2 HashSet Objects:
 
+        // step 1: creating two sets named as first and second:
         Set<Integer> first = new HashSet<>();
         // another approach to add
         first.addAll(Arrays.asList(new Integer [] {1,3,5,6,7,8,9}));
-        System.out.println(first);
+        System.out.println("First set is: " + first);
         System.out.println();
 
         Set<Integer> second = new HashSet<>();
         second.addAll(Arrays.asList(new Integer[]{2,4,6,7,8,9,10}));
-        System.out.println(second);
+        System.out.println("Second set is: " + second);
         System.out.println();
 
-        //UNION: addAll
+        // step 2: creating a set that will hols values of first set: in this case we named it as union:
+        // UNION: addAll
         Set<Integer> union = new HashSet<>(first);
+
+        // step 3 (ForUnion): using the addAll method, we need to add the second object with the union method.
+        // since set does not keep similar values, using addAll will only give us both common values and unique values.
+
         union.addAll(second);
-        System.out.println(union);
+        System.out.println("Union of first and second set is: " + union);
         System.out.println();
 
-        //INTERSECTION: retainAll
+        // step 3 (For Intersection): using retain all method will only keep the common values matching with first and second object:
+        // INTERSECTION: retainAll
+
         Set<Integer> intersection = new HashSet<>(first);
         intersection.retainAll(second);
-        System.out.println(intersection);
+        System.out.println("Intersection of first and second set is: " + intersection);
 
 
 
