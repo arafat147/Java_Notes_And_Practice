@@ -9,6 +9,10 @@ public interface D_Interface2 {
     String bikeName = "Yamaha";
     double bikePrice = 12000;
 
+    private void doStuff(){
+        System.out.println("i am inside interface");
+    }
+
 
 
 

@@ -18,8 +18,14 @@ public class G_Casting {
 		
 		int newSsn2 = Integer.valueOf(ssn);
 		System.out.println(newSsn2);
-		
-		
+
+		int rollNumber= 12;
+		double newNumber = (double)rollNumber;
+		System.out.println(newNumber);
+
+		double mobilePrice = 1200.99;
+		int newMobilePrice = (int) mobilePrice;
+		System.out.println(newMobilePrice);
 		
 
 	}

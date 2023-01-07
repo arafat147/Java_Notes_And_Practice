@@ -15,19 +15,32 @@ public class A_Singleton {
      String stName = "Alex";
      static int age = 25;
 
+//    private A_Singleton(){
+//
+//    }
+//
+//
+//
+//    private static A_Singleton obj = new A_Singleton();
+//
+//    public static A_Singleton getInstance(){
+//        return obj;
+//    }
+
     private A_Singleton(){
 
     }
-
-
-
     private static A_Singleton obj = new A_Singleton();
-
     public static A_Singleton getInstance(){
         return obj;
     }
 
-    public static void doStuff(){
+
+
+
+
+
+    public  void doStuff(){
         int a = 10;
         int b= 20;
         int total = a+b;

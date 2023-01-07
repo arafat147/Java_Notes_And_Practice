@@ -6,13 +6,14 @@ public class A_Singleton_Test {
 
         A_Singleton sc = A_Singleton.getInstance();
         sc.stName = "James";
-        A_Singleton.doStuff();
+        sc.doStuff();
         A_Singleton.age = 30;
         A_Singleton.doMoreStuff();
         //A_Singleton sc = A_Singleton.getInstance();
         sc.stName="Williams";
         A_Singleton.age = 50;
 
+        //A_Singleton sc2 = A_Singleton.getInstance();
 
 
 

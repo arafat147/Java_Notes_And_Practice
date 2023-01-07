@@ -33,7 +33,7 @@ public class A_LearnQueue {
 
 
         // To Remove elements: it maintains First In First Out process:
-        // to see which element it removed in the printline: we need to print the value of q.remove();
+        // to see which element it removed in the print line: we need to print the value of q.remove();
         System.out.println("Removed element is: "+q.remove());
         //q.remove();//this will remove the first element which is "Alex"
         System.out.println("After removing first time: " + q);

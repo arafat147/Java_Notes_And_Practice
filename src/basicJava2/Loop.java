@@ -5,7 +5,7 @@ public class Loop {
     //What is loop?-
 
     //Looping in programming languages is a feature which allows to execute a set of instruction/function
-    //repeatedly while some condition evaluates to true.
+    //while some condition evaluates to true.
 
     //Benefit of loop-
 

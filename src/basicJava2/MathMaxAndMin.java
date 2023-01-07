@@ -16,6 +16,13 @@ public class MathMaxAndMin {
         return (Math.min(Math.min(a,b),c));
     }
 
+    public static int biggerNumber(){
+        int a = 15;
+        int b = 19;
+        int c = 10;
+        return (Math.max(Math.max(a,b),c));
+    }
+
     public static void main(String[] args) {
 
         System.out.println(MathMaxAndMin.biggestNumber());

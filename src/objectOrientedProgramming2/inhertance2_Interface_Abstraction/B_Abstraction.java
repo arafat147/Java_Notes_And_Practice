@@ -22,7 +22,7 @@ public abstract class B_Abstraction {
         System.out.println("V6 engine");
     }
 
-    // variables: there is no restrictions in abstract class variables.
+    // variables: variables can not be abstract in java
     String name = "alex";
     int age;
 

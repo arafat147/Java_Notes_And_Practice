@@ -36,7 +36,7 @@ Non primitive Datatypes are- String , Array, Classes, Interface etc.
 
 the syntax is :
 
-VariableType  VariableName  =  Value
+DataType  VariableName  =  Value;
 
 Variables are of 2 types-
 

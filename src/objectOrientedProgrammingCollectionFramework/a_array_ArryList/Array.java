@@ -19,7 +19,6 @@ public class Array {
         System.out.println(cars[0] + " " + cars[1] + " " + cars[2] + " " + cars[3] + " " + cars[4]);
         // another approach:
         System.out.println(Arrays.toString(cars));
-
         //Another approach:
         int[] a = new int[3]; // this is a static array. means, it has a fixed size.
         a[0] = 10;

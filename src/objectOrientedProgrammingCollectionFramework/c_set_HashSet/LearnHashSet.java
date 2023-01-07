@@ -61,7 +61,7 @@ public class LearnHashSet {
         System.out.println("Second set is: " + second);
         System.out.println();
 
-        // step 2: creating a set that will hols values of first set: in this case we named it as union:
+        // step 2: creating a set that will hold values of first set: in this case we named it as union:
         // UNION: addAll
         Set<Integer> union = new HashSet<>(first);
 
@@ -78,8 +78,6 @@ public class LearnHashSet {
         Set<Integer> intersection = new HashSet<>(first);
         intersection.retainAll(second);
         System.out.println("Intersection of first and second set is: " + intersection);
-
-
 
 
     }

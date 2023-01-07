@@ -17,5 +17,11 @@ public class B_Encapsulation_Test {
         obj.setMobileBrand("Samsung");
         System.out.println(obj.getMobileBrand());
 
+        obj.setAge(28);
+        System.out.println(obj.getAge());
+
+        obj.setCarBrand("BMW");
+        System.out.println(obj.getCarBrand());
+
     }
 }

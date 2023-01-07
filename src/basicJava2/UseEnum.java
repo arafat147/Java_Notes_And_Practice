@@ -13,6 +13,9 @@ public class UseEnum {
     public  enum DAYS{
         SUNDAY,MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY; // here ; semi-colon is optional. we can use without ;
     }
+    public enum MONTHS{
+        JANUARY,FEBRUARY,MARCH,APRIL,MAY,JUNE,JULY,AUGUST,SEPTEMBER,OCTOBER,NOVEMBER,DECEMBER
+    }
 
     private enum Level{
         High,Medium,Low
@@ -31,6 +34,7 @@ public class UseEnum {
         System.out.println(DAYS.MONDAY);
         System.out.println(COLOR.red);
         System.out.println(Level2.Inner);
+        System.out.println(MONTHS.JANUARY);
     }
 }
 

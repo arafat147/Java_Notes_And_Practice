@@ -20,6 +20,27 @@ public class K_ConditionalOperator {
         }
     }
 
+    public static void operator() {
+        System.out.println("enter your age");
+        Scanner sc = new Scanner(System.in);
+        int age = sc.nextInt();
+        while (age != 0) {
+            if (age >= 18 && age <= 65) {
+                System.out.println("you are eligible to vote this year");
+            } else if (age < 18) {
+                int x = 18 - age;
+                System.out.println("you have to wait " + x + " more year to vote");
+            } else if (age > 65) {
+                int y = age - 65;
+                System.out.println("you are " + y + " year over the limit to vote");
+            } else {
+                System.out.println("your voting app is not working");
+            }
+
+            age = sc.nextInt();
+        }
+    }
+
     public static void ifElse2(int age) {
 
         if (age >= 18 && age <= 65) {
@@ -64,8 +85,27 @@ public class K_ConditionalOperator {
             } else if (number >= 93) {
                 System.out.println("your grade is A+");
             }
-            number = sc.nextByte();
+            number = sc.nextInt();
         }
+
+    }
+
+    public static void practiceLoop(){
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your number");
+        int number = sc.nextInt();
+        while (number !=0){
+            if (number<=50){
+                System.out.println("Grade D");
+            }else if (number <=60){
+                System.out.println("Grade C");
+            }else if (number <=70){
+                System.out.println("Grade B");
+            }
+            number = sc.nextInt();
+        }
+
 
     }
 
@@ -79,6 +119,9 @@ public class K_ConditionalOperator {
 //       K_ConditionalOperator.nestedIfElse();
 //       K_ConditionalOperator.ifElse2(20);
 //       K_ConditionalOperator.ifElseIf();
+
+//        K_ConditionalOperator.practiceLoop();
+        K_ConditionalOperator.operator();
 
     }
 

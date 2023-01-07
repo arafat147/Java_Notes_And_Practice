@@ -41,10 +41,20 @@ public class G_Throw_Keyword {
         }
         System.out.println("Hi");
 
+        practiceThrow();
 
+    }
 
-
-
+    public static void practiceThrow(){
+        String g= "Y";
+        if (g.equals("Y")){
+            try{
+                throw new Exception("This is an Exception");
+            } catch (Exception e) {
+               // System.out.println("kisu korar nai. egulai exception :D ");
+                e.printStackTrace();
+            }
+        }
 
     }
 

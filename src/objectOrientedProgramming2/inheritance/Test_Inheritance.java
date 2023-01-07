@@ -12,7 +12,7 @@ public class Test_Inheritance {
         v1.stop(); // from VehicleSpecification
         System.out.println("###################");
 
-        // Bmw extends VehicleSpecification: example of multi level inheritance.
+        // Bmw extends VehicleSpecification: and then vehicleSpecification class extends TransportAuthority Class:  example of multi level inheritance.
         Bmw b1 = new Bmw();
         b1.start(); // this will call the method from bmw class cz this method is over ridden from the parent class.
         b1.stop(); // this is from parent class.

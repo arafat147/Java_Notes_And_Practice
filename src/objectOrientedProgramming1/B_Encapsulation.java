@@ -41,4 +41,34 @@ public class B_Encapsulation {
     public void setCarName(String carName){
         this.carName = carName;
     }
+
+
+    //Practice:
+    private String carBrand;
+
+
+    public String getCarBrand(){
+        return carBrand;
+    }
+    public void setCarBrand(String carBrand){
+        this.carBrand = carBrand;
+    }
+
+    private int age;
+    public int getAge(){
+        return age;
+    }
+    public void setAge(int age){
+        this.age = age;
+    }
+
+    private double salary;
+    public double getSalary(){
+        return salary;
+    }
+
+    public void setSalary(double salary){
+        this.salary = salary;
+    }
+
 }

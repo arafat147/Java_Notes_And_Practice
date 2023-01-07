@@ -13,18 +13,20 @@ public class A_ExceptionHandling {
     // look at the below two methods. doStuff method has an error but doMoreStuff method doesn't.
     // so, when i called them accordingly, in main method, after doStuff method gets executed with the error,
     // jvm will not go further methods to call. which means - THERE IS NO ALTERNATIVE WAY TO RUN REST OF THE PROGRAM.
-    // THAT'S WHY WE NEED TRY-CATCH BLOCK TO HANDLE ANY UNEXPECTED EVENTS AND RUN THE PEST OF THE PROGRAM.
+    // THAT'S WHY WE NEED TRY-CATCH BLOCK TO HANDLE ANY UNEXPECTED EVENTS AND RUN THE REST OF THE PROGRAM.
 
     public static void doStuff() {
         System.out.println(10 / 0);
     }
+
     public static void doMoreStuff() {
         System.out.println("Hi all");
     }
+
     public static void main(String[] args) {
 
-//        doStuff();
-//        doMoreStuff();
+        doStuff();
+        doMoreStuff();
 //        System.out.println("but i am running");
 
 //        try{
@@ -46,13 +48,6 @@ public class A_ExceptionHandling {
 //
 //        System.out.println("Hi");
 //
-
-
-
-
-
-
-
 
     }
 

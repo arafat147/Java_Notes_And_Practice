@@ -11,18 +11,18 @@ public interface A_Interface { // an interface can Extend multiple Interfaces,bu
     // we can not create constructors of interface
 
 
-    private void doStuff(){
-        System.out.println("this is do stuff method");
-    }
+    // in interface, variables must be initialized.
+    String className = "Interface ";
+    // int age; // it will give us error
 
     public void truckEngine();
 
     public void truckCapacity();
 
-    // in interface, variables must be initialized.
-     String className = "Interface ";
 
-   //int age;
+    private void doStuff() {
+        System.out.println("this is do stuff method");
+    }
 
 
 }

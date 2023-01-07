@@ -1,6 +1,6 @@
 package basicJava3_ExceptionHandling_Final_Finally_Finalize_Throw_Throwable;
 
-public class E_NumberFormatException {
+public class  E_NumberFormatException {
 
     public static void main(String[] args) {
 
@@ -9,16 +9,27 @@ public class E_NumberFormatException {
 
 
 
-        try{
-            int num = Integer.parseInt ("XYZ") ;
-            System.out.println(num);
-        }catch(NumberFormatException e) {
-            //System.out.println("Number format exception occurred");
-            e.printStackTrace();
-        } finally {
-            String ssn = "123456";
-            int newSsn = Integer.parseInt(ssn);
-            System.out.println("the new integer value is " + newSsn);
+//        try{
+//            int num = Integer.parseInt ("XYZ") ;
+//            System.out.println(num);
+//        }catch(NumberFormatException e) {
+//            //System.out.println("Number format exception occurred");
+//            e.printStackTrace();
+//        } finally {
+//
+//            String ssn = "123456";
+//            int newSsn = Integer.parseInt(ssn);
+//            System.out.println("the new integer value is " + newSsn);
+//
+//        }
+
+        try {
+            String a = "xyz";
+            int num = Integer.parseInt(a);
+            System.out.println(a);
+        }catch (Exception e){
+            System.out.println("this is number format exception");
+ //           e.printStackTrace();
         }
 
 

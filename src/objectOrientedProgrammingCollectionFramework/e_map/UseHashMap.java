@@ -32,7 +32,7 @@ public class UseHashMap {
         System.out.println("Get the value of a set using key:" + hp.get(2));
         //to get all the values in general:
         System.out.println(hp);
-        System.out.println("##################");
+        System.out.println("################## 1");
 
         //to get values using entryset() method: entry set method returns the set of elements together inside a hashmap object.
         System.out.println(hp.entrySet());
@@ -42,6 +42,7 @@ public class UseHashMap {
         for (Map.Entry<Integer,String> m : hp.entrySet()) {
             System.out.println("Key " + m.getKey() + " Value is" + ": " + m.getValue());
         }
+
 
         //to use Employee class objects inside hashmap:
         // first we have to create a new hashmap object:

@@ -7,15 +7,15 @@ public class C_MainMethod {
 		//First- 
 		/**
 		 * whether we have the main method or not, or whether we have the main method according to the requirements or not, these 
-		 * things will not be checked by the compiler. it will compile, which is the first part of running a program. so, after the compiler,
-		 * comes  JVM . and it will be responsible for checking the main
-		 * method. 
+		 * things will not be checked by the compiler. it will compile, which is the first part of running a program. so,
+		 * after the compiler, comes  JVM . and it will be responsible for checking the main method.
 		 */
+
 		//and Second-
 		/**
-		 * when jvm can not find the main method it will give us an exception such As : (Main method not found in class basicJava.TestClass1,
+		 * when jvm can not find the main method it will give us an exception such As : (Main method not found in class basicJava.
+		 * TestClass1,
 		 * please define the main method as: public static void main(String[] args). it means that jvm did not find the main method! )
-		 * 
 		 */
 		
 		
@@ -28,7 +28,7 @@ public class C_MainMethod {
 		
 		//why main method is public?
 		/**
-		 * first of all public is the access modifier. the reason it must be public for the main mrthod is
+		 * first of all public is the access modifier. the reason it must be public for the main method is
 		 * because jvm always looks for the main method in a class and it runs or executes whatever conditions are inside the main method only,
 		 * so to run or execute the main method from ANYWHERE by the JVM it is and must be given the public access modifier.
 		 * 
@@ -67,7 +67,7 @@ public class C_MainMethod {
 		/**
 		 * first we have to see who is calling the main method?- JVM right?. so if i call main method then i can expect some values and i can use 
 		 * those values to the rest of the program but if main method return something to jvm , what will it do with that? nothing..
-		 * thats why main method will not return anything to the JVM and this is the reason its VOID type.
+		 * that's why main method will not return anything to the JVM and this is the reason its VOID type.
 		 * 
 		 * */
 		
@@ -78,10 +78,17 @@ public class C_MainMethod {
 		 * 
 		 */
 		//#Refference link - https://www.youtube.com/watch?v=by58arnoV4c.
-		
+		static String s="java";
 
 	public static void main(String[] args) {
-		
+
+		// explanation of System.out.println();
+		// https://www.youtube.com/watch?v=lGHrhtuxnOc
+		System.out.println("Hi i am from the main method!");
+
+
+		//C_MainMethod.s.length();
+		System.out.println(C_MainMethod.s.length());
 	}
 
 }

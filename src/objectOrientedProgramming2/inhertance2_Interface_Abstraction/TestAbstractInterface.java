@@ -13,7 +13,7 @@ public class TestAbstractInterface extends B_Abstraction implements A_Interface,
     // interface can Extend multiple interfaces.
     // interface can not Implement another interface.
 
-    // from B_Abstract class
+    // from B_Abstract class(About car)
     @Override
     public void car() {
         System.out.println("car will have the following features");
@@ -29,7 +29,7 @@ public class TestAbstractInterface extends B_Abstraction implements A_Interface,
     }
 
 
-    //from A_Interface
+    //from A_Interface(About truck)
     @Override
     public void truckEngine() {
         System.out.println("V12");
@@ -40,7 +40,7 @@ public class TestAbstractInterface extends B_Abstraction implements A_Interface,
         System.out.println("truck can tow up to 8000lb ");
     }
 
-    // from D_Interface2
+    // from D_Interface2(About bike)
     @Override
     public void bike() {
         System.out.println("Bike name is yamaha");

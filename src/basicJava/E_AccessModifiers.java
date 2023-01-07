@@ -18,7 +18,7 @@ public class E_AccessModifiers {
     // Public:    We can call or use within the class where it is located and from any other class which might be outside
 	// 			  of the package inside same project.
 	// Private:   Only we can call or use within the class where it is located.
-    // Protected: Only accessible from all the class of that particular package.
+    // Protected: Only accessible from all the classes of that particular package.
 	// Default:   If a class has no modifier (the default, also known as package-private), it is visible only within
 	// 			  its own package.
 

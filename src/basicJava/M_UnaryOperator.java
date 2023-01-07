@@ -3,8 +3,8 @@ package basicJava;
 public class M_UnaryOperator {
 
     public static void main(String[] args) {
-        //increment: ++a, a++
-        //decrement: --a, a--
+         //increment: ++a, a++
+         //decrement: --a, a--
 
 //        int a = 5;
 //        //pre increment: it happens before. meaning in the below line we wrote ++a inside the print line.
@@ -27,11 +27,19 @@ public class M_UnaryOperator {
 //
 
         int a = 10;
-        System.out.println(a++);// prints 10 and saves 1 for future.
-        System.out.println(a++);// it prints 11 bcz line 30 gets iterated and shows us 11 and keeps 1 for future.
-        System.out.println(a++);// it will do same as above line. 12
-        System.out.println(a);// 13
-        System.out.println(a++);// 13
+//        System.out.println(a++);// prints 10 and saves 1 for future.
+//        System.out.println(a++);// it prints 11 bcz line 30 gets iterated and shows us 11 and keeps 1 for future.
+//        System.out.println(a++);// it will do same as above line. 12
+//        System.out.println(a);// 13
+//        System.out.println(a++);// 13
+
+        int b=10;
+        System.out.println(++b); //11
+        b++;
+        System.out.println(b++); //12 (1+ for later)
+        System.out.println(b++);//13 (1 for later)
+        b--;
+        System.out.println(b);//13
 
     }
 }

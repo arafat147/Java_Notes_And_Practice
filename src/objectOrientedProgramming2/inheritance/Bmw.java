@@ -2,9 +2,9 @@ package objectOrientedProgramming2.inheritance;
 
 public class Bmw extends VehicleSpecification { // let's say this is the child class and extending the parent class VehicleSpecification.
 
-        // Inheritance is a mechanism in which one class acquires the property of another class.
-        // It is useful for code re usability: reuse attributes and methods of an existing class when you create a new class.
-        // Here, Bmw is child class and since it's extending VehicleSpecification Class, so this is the parent class.
+    // Inheritance is a mechanism in which one class acquires the property of another class.
+    // It is useful for code re usability: reuse attributes and methods of an existing class when you create a new class.
+    // Here, Bmw is child class and since it's extending VehicleSpecification Class, so this is the parent class.
 
     public void start() {
 
@@ -16,26 +16,25 @@ public class Bmw extends VehicleSpecification { // let's say this is the child c
 
     }
 
-    public void theftSafety(){
+    public void theftSafety() {
         System.out.println("Bmw -- theft safety feature");
     }
 
-    public void laneDeparture(){
+    public void laneDeparture() {
         System.out.println("Bmw -- lane departure feature");
     }
 
-    public void cruiseControl(){
+    public void cruiseControl() {
         System.out.println("Bmw -- cruise control system");
     }
 
 
-
-
     // these 2 examples are method over loading. we can use same method name but with different arguments.
-    public void doStuff(){
-        System.out.println(5+5);
+    public void doStuff() {
+        System.out.println(5 + 5);
     }
-    public void doStuff(int age){
+
+    public void doStuff(int age) {
         System.out.println("age is " + age);
     }
 
