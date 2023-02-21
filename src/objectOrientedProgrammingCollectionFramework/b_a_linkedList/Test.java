@@ -1,5 +1,6 @@
 package objectOrientedProgrammingCollectionFramework.b_a_linkedList;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -35,6 +36,28 @@ public class Test {
         Iterator<Integer> it = li.iterator();
         while(it.hasNext()){
             System.out.println(it.next());
+        }
+        System.out.println("***********************************************************************");
+
+        ArrayList ar = new ArrayList();
+        ar.add("alex");
+        ar.add(20);
+        ar.add(true);
+        ar.add(20.59);
+        ar.add('M');
+        ar.add(50.25666f);
+        System.out.println(ar);
+        for (int i=0; i<ar.size(); i++){
+            System.out.print(ar.get(i) + ", ");
+        }
+        System.out.println();
+        for(Object x : ar){
+            System.out.print(x + ", ");
+        }
+        System.out.println();
+        Iterator<Object> it1 = ar.iterator();
+        while (it1.hasNext()){
+            System.out.print(it1.next() + ", ");
         }
 
 

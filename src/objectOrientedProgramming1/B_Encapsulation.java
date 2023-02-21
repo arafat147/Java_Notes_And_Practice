@@ -71,4 +71,12 @@ public class B_Encapsulation {
         this.salary = salary;
     }
 
+    private String carEngine;
+    public String getCarEngine(){
+        return carEngine;
+    }
+    public void setCarEngine(String name){
+        this.carEngine=name;
+    }
+
 }

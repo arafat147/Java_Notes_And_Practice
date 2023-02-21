@@ -14,4 +14,5 @@ public class TransportAuthority { // let's say this is a grand parent class.
     public void busBlueprint() {
         System.out.println("This is bus blueprint");
     }
+
 }

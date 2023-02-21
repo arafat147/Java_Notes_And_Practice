@@ -14,13 +14,13 @@ public class Test_Inheritance {
 
         // Bmw extends VehicleSpecification: and then vehicleSpecification class extends TransportAuthority Class:  example of multi level inheritance.
         Bmw b1 = new Bmw();
+        b1.carBlueprint();//this is coming from TransportAuthority class since it's a multi level inheritance.
         b1.start(); // this will call the method from bmw class cz this method is over ridden from the parent class.
         b1.stop(); // this is from parent class.
         b1.engine(); // from parent class.
         b1.cruiseControl();// Bmw
         b1.laneDeparture();// Bmw
         b1.theftSafety(); // Bmw
-        b1.carBlueprint(); // from TransportAuthority class.
         System.out.println("####################");
 
         // Mercedes extends VehicleSpecification: example of Hierarchical inheritance.

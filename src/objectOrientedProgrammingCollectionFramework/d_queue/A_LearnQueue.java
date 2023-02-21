@@ -11,7 +11,7 @@ public class A_LearnQueue {
      * to hold the elements about to be processed in FIFO(First In First Out) order.
      * <p>
      * Since Queue is an interface, objects cannot be created of the type queue. We always need a class
-     * which extends this list in order to create an object.
+     * which extends this Queue in order to create an object.
      */
 
     public static void main(String[] args) {
@@ -34,7 +34,7 @@ public class A_LearnQueue {
 
         // To Remove elements: it maintains First In First Out process:
         // to see which element it removed in the print line: we need to print the value of q.remove();
-        System.out.println("Removed element is: "+q.remove());
+        System.out.println("Removed element is: " + q.remove());
         //q.remove();//this will remove the first element which is "Alex"
         System.out.println("After removing first time: " + q);
         // poll() method is also used to remove the head and return it.
@@ -56,7 +56,23 @@ public class A_LearnQueue {
         while (it.hasNext()) {
             System.out.println(it.next());
         }
+        System.out.println("*************************************************************");
+        testPriorityQueue();
 
+    }
+
+    public static void testPriorityQueue() {
+
+        Queue<Integer> queue = new PriorityQueue<>();
+        queue.add(2);
+        queue.add(4);
+        queue.add(6);
+        queue.add(8);
+        queue.add(10);
+        System.out.println(queue);
+        System.out.println(queue.peek());
+        System.out.println(queue.remove());
+        System.out.println(queue);
 
     }
 

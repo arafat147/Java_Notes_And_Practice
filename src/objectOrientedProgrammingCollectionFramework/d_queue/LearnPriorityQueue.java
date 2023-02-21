@@ -21,7 +21,7 @@ public class LearnPriorityQueue {
         System.out.println(st);
         //***peek(): to see the front in the queue:
         System.out.println("Peek: " + st.peek());
-        System.out.println("After Peek- P.Queue: " + st);
+        System.out.println("After Peek : " + st);
         //***poll(): to remove the front element and return it.
         System.out.println("Poll: " + st.poll());
         System.out.println("After Poll- P.Queue: " + st);

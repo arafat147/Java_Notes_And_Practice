@@ -12,20 +12,25 @@ public class A_Singleton {
     // 2. creating a private static singleton class object
     // 3. create a public static singleton class getInstance() method to return the object.
 
+    /*
+    private Singleton(){
+    }
+
+    private static Singleton st = new Singleton();
+    public static Singleton getInstance(){
+    return st;
+    }
+    --------------
+    from another class:
+
+    public static void main(String [] args){
+    Singleton sc = Singleton.getInstance();
+    sc.stName="jAmes";
+    }
+     */
+
      String stName = "Alex";
      static int age = 25;
-
-//    private A_Singleton(){
-//
-//    }
-//
-//
-//
-//    private static A_Singleton obj = new A_Singleton();
-//
-//    public static A_Singleton getInstance(){
-//        return obj;
-//    }
 
     private A_Singleton(){
 

@@ -29,6 +29,8 @@ public class LearnVector {
         System.out.println(vt.size());
         System.out.println(vt.get(4));
         System.out.println();
+        vt.set(0,1);
+        System.out.println(vt);
         for (int i = 0; i < vt.size(); i++) {
             System.out.println(vt.get(i));
         }

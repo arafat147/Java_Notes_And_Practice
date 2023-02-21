@@ -38,6 +38,7 @@ public class UseArrayList {
         ar1.add(10);
         // ar1.add("Alex"); it will give us error because we defined the arraylist object to hold only integer values.
         ar1.add(158);
+        ar1.add(0, 20);
         System.out.println(ar1.size());
         System.out.println(ar1.get(1));
         Collections.sort(ar1);// to sort arraylist elements
@@ -66,20 +67,19 @@ public class UseArrayList {
         //To store Employee class objects into ArrayList: lets create an arrayList object with Employee class reference:
         ArrayList<Employee> e = new ArrayList<>();
         // create some employee objects:
-        Employee e1 = new Employee("Alex",25);
-        Employee e2 = new Employee("James",35);
-        Employee e3 = new Employee("Tom",28);
+        Employee e1 = new Employee("Alex", 25);
+        Employee e2 = new Employee("James", 35);
+        Employee e3 = new Employee("Tom", 28);
         //lets add these values inside arrayList object:
         e.add(e1);
         e.add(e2);
         e.add(e3);
         // to retrieve data:
         Iterator<Employee> it2 = e.iterator();
-        while(it2.hasNext()){
+        while (it2.hasNext()) {
             Employee emp = it2.next();
-            System.out.println(emp.name + " ," + emp.age);
+            System.out.println(emp.name + " , " + emp.age);
         }
-
 
 
     }

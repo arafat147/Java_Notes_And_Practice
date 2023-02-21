@@ -17,7 +17,7 @@ public class LearnHashSet {
      * HashSet contains unique elements only. Duplicate values don't get added when printed.
      * HashSet allows null value.
      */
-    public static void main(String[] args) {
+    public static void learnHashset() {
 
         Set<String> hs = new HashSet<>();
         hs.add("A");
@@ -80,6 +80,28 @@ public class LearnHashSet {
         System.out.println("Intersection of first and second set is: " + intersection);
 
 
+    }
+
+
+    public static void testHashSet(){
+
+        Set<Integer> set1 = new HashSet<>();
+        set1.addAll(Arrays.asList(new Integer[]{2,4,6,2,8,10}));
+        Set<Integer> set2 = new HashSet<>();
+        set2.addAll(Arrays.asList(new Integer[]{1,3,5,6,8,9}));
+        Set<Integer> union = new HashSet<>(set1);
+        union.addAll(set2);
+        System.out.println("Union: " + union);
+        Set<Integer> intersection = new HashSet<>(set1);
+        intersection.retainAll(set2);
+        System.out.println("Intersection: " + intersection);
+
+    }
+
+
+    public static void main(String[] args) {
+        //learnHashset();
+        testHashSet();
     }
 
 

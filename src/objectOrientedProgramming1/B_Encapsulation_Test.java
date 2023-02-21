@@ -23,5 +23,8 @@ public class B_Encapsulation_Test {
         obj.setCarBrand("BMW");
         System.out.println(obj.getCarBrand());
 
+        obj.setCarEngine("v6");
+        System.out.println(obj.getCarEngine());
+
     }
 }

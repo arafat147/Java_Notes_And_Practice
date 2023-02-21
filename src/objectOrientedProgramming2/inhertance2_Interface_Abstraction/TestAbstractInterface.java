@@ -59,8 +59,17 @@ public class TestAbstractInterface extends B_Abstraction implements A_Interface,
 
     public static void main(String[] args) {
 
+        TestAbstractInterface testAbstractInterface = new TestAbstractInterface();
+        testAbstractInterface.bikeEngine();
+
+        A_Interface a_interface = new TestAbstractInterface();
+        a_interface.truckCapacity();
+
+
+
 
     }
+
 
 
 }

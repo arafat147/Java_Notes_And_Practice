@@ -42,6 +42,10 @@ public class UseHashMap {
         for (Map.Entry<Integer,String> m : hp.entrySet()) {
             System.out.println("Key " + m.getKey() + " Value is" + ": " + m.getValue());
         }
+        for (Map.Entry<Integer,String> m : hp.entrySet()){
+            System.out.print(m.getKey() + " : " + m.getValue());
+            System.out.println();
+        }
 
 
         //to use Employee class objects inside hashmap:

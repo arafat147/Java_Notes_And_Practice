@@ -7,7 +7,7 @@ public interface D_Interface2 {
     public void bikeSeat();
 
     String bikeName = "Yamaha";
-    double bikePrice = 12000;
+    double bikePrice = 12000.99;
 
     private void doStuff(){
         System.out.println("i am inside interface");

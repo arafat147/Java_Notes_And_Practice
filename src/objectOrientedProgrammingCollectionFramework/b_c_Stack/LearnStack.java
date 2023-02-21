@@ -36,7 +36,26 @@ public class LearnStack {
         // *** peek method: it only shows the top element but doesn't remove it:
         System.out.println(booksNames.peek());
         System.out.println(booksNames);
+        System.out.println("***********************************************************");
+        testStack();
 
+
+    }
+
+    public static void testStack(){
+
+        Stack<String> books = new Stack<>();
+        boolean flag = books.empty();
+        System.out.println(flag);
+        books.push("java books");
+        books.push("selenium books");
+        books.push("data structure books");
+        books.push("data structure books");
+        System.out.println(books);
+        System.out.println(books.pop());
+        System.out.println(books);
+        System.out.println(books.peek());
+        System.out.println(books);
 
     }
 
